@@ -6,7 +6,6 @@ class App extends Component {
   render() {
     return (
       <div className='temp-app'>
-        IFUNNY
         {routes}
       </div>
     );
