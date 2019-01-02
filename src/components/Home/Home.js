@@ -8,7 +8,7 @@ class Home extends Component{
             <div>
                 <Header />
                 <div className='main-page-parent-flex'>
-                    <div>
+                    <div className='main-page-categories'>
                         <p style={{color: 'rgb(255,207,0)', marginTop: 0}}>featured</p>
                         <p>Animals & Nature</p>
                         <p>Anime & Manga</p>
@@ -26,10 +26,11 @@ class Home extends Component{
                         <p>Sports</p>
                         <p>TV shows</p>
                     </div>
-                    <div>
-                        <img src={'https://img.ifcdn.com/images/ace0f6f8edc0635194886587037d7f0b893b374fce63aa8826e6c3b309f36607_1.jpg'} />
+                    <div className='main-page-meme-holder'>
+                        <p className='main-page-mobile-countdown'>the next fun train arrives in XXXX</p>
+                        <img src={'https://img.ifcdn.com/images/ace0f6f8edc0635194886587037d7f0b893b374fce63aa8826e6c3b309f36607_1.jpg'} className='placeholder-meme'/>
                     </div>
-                    <div>
+                    <div className='main-page-right-side-bar'>
                         <div>TOUCH TO UNLOCK FUN</div>
                         <div>TRENDING TAGS</div>
                         <div>FOLLOW iFunny</div>

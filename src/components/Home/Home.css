@@ -1,3 +1,21 @@
+.main-page-categories {
+    display: none;
+}
+
+.placeholder-meme {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.main-page-mobile-countdown {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.671);
+    margin: 35px 0 25px 0;
+}
+
+.main-page-right-side-bar {
+    display: none;
+}
 
 @media screen and (min-width: 1120px){
     .main-page-parent-flex {
@@ -7,5 +25,27 @@
         justify-content: space-between;
         color: white;
         font-weight: 800;
+    }
+
+    .placeholder-meme {
+        max-width: 680px;
+    }
+
+    .main-page-meme-holder {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .main-page-categories {
+        display: initial;
+    }
+    
+    .main-page-right-side-bar {
+        display: initial;
+    }
+
+    .main-page-mobile-countdown {
+        display: none;
     }
 }
