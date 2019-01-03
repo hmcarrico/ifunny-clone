@@ -1,4 +1,8 @@
+* {
+  font-family: Montserrat;
+}
+
 .temp-app {
-  height: 110vh;
+  /* height: 110vh; */
   background: rgb(22,25,30);
 }

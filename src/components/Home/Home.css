@@ -2,6 +2,10 @@
     display: none;
 }
 
+.home-page-app-links {
+    display: none;
+}
+
 .placeholder-meme {
     max-width: 100%;
     border-radius: 10px;
@@ -20,15 +24,16 @@
 @media screen and (min-width: 1120px){
     .main-page-parent-flex {
         display: flex;
-        margin: 50px auto 0 auto;
+        margin: 0 auto;
         max-width: 1200px;
         justify-content: space-between;
         color: white;
         font-weight: 800;
+        padding-top: 110px;
     }
 
     .placeholder-meme {
-        max-width: 680px;
+        max-width: 600px;
     }
 
     .main-page-meme-holder {
@@ -47,5 +52,59 @@
 
     .main-page-mobile-countdown {
         display: none;
+    }
+
+    .home-page-app-links {
+        display: flex;
+        width: 299px;
+        background: rgb(7,13,17);
+        justify-content: space-between;
+        height: 80px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        color: rgba(255, 255, 255, 0.671);
+    }
+
+    .home-page-app-links div:first-child {
+        margin: 48px 0 0 15px;
+        font-size: 13px;
+    }
+
+    .home-page-app-links div:nth-child(2) {
+        margin: 48px 0 0 0;
+        font-size: 13px;
+    }
+
+    .home-page-app-links div:nth-child(3) {
+        margin: 48px 19px 0 0;
+        font-size: 13px;
+    }
+
+    .main-page-trending-tag-button {
+        background: none;
+        margin: 6px 8px 5px 0;
+        padding: 4px 8px;
+        font-size: 13px;
+        color: rgb(255,207,0);
+        border: 2px solid rgba(255, 207, 0, 0.39);
+        border-radius: 50px;
+    }
+
+    .main-page-trending-tag {
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+
+    .main-page-trending-title {
+        margin-top: 40px;
+        margin-bottom: 10px;
+        color: rgba(255, 255, 255, 0.356);
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .main-page-trending-tag-button:hover {
+        border: 2px solid rgb(255, 207, 0);
     }
 }
